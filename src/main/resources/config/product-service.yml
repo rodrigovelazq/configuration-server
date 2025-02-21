@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/productsdb
+    username: admin
+    password: admin123
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+products:
+  message: "Welcome to xxxx accounts related local APIs "
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john@rodrigovelazq.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345
