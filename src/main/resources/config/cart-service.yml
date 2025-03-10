@@ -25,4 +25,4 @@ products:
     - (555) 523-1345
 
 build:
-  version: "3.0"
+  version: "4.0"
